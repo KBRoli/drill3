@@ -21,10 +21,10 @@ int main()
 	if(friend_sex== 'f') cout<<"If you see "<<friend_name<<"ask her please to organise another meet.\n";
 	else(friend_sex== 'm') cout<<"If you see "<<friend_name<<"ask him please to organise another meet.\n";
 	if(age <=0 || age >=101) simple_error("You are just kidding!");
-	else cout<<"Yeah, i heard about that you are at age "<<age<<"\n";
+	else  cout<<"Yeah, i heard about that you are at age "<<age<<"\n";
 	if (age<16) cout<<"Next year you will be " <<age+1<<"\n";
 	else if (age==17) cout<<"Next year you will be able to vote.\n";
-	else(age>70) cout<<"I hope you enjoy your retirement.\n";
+	else if (age>70) cout<<"I hope you enjoy your retirement.\n";
 	cout<<"Best wishes,\n";
 	cout<<"Béla Roland Kun\n";
 	return 0;
